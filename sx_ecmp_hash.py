@@ -90,7 +90,7 @@ def read_ecmp_hash_cfg(filename):
         with open(filename) as fh:
             for line in fh:
                 line = line.strip()
-                if line.startswith("$"):
+                if line.startswith("#"):
                     continue
                 bit = hash_bits.get(line)
                 if bit:
