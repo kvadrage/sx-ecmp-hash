@@ -9,6 +9,7 @@ Mellanox Spectrum Switches running Cumulus Linux 3.x
 
 ## Install
 `sudo dpkg -i sx-ecmp-hash_x.x.x-cl_all.deb`
+
 `sudo systemctl enable sx-ecmp-hash.service`
 
 ## Usage
