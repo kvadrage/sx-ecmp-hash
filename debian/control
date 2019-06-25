@@ -1,0 +1,11 @@
+Source: sx-ecmp-hash
+Section: net
+Priority: optional
+Build-Depends: debhelper (>= 10.0.0)
+Maintainer: Alexander Petrovskiy <alexpe@mellanox.com>
+
+Package: sx-ecmp-hash
+Architecture: all
+Depends: python, ${misc:Depends}
+Description: Setting custom ECMP Hash for Mellanox Switches 
+    with Cumulus Linux

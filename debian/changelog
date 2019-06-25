@@ -1,0 +1,4 @@
+sx-ecmp-hash (1.0.1-cl) unstable; urgency=low
+  Initial release
+
+ -- Alexander Petrovskiy <alexpe@mellanox.com>  Tue, 25 Jun 2019 14:36:06 +0300

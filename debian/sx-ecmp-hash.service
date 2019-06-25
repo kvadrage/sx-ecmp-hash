@@ -1,0 +1,11 @@
+[Unit]
+Description=Setting custom ECMP Hash for Mellanox Switches
+Requires=switchd.service
+After=switchd.service
+BindsTo=switchd.service
+
+[Service]
+ExecStart=/usr/bin/sx_api_ecmp_hash.py
+
+[Install]
+WantedBy=multi-user.target
