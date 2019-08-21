@@ -5,7 +5,7 @@ After=switchd.service
 BindsTo=switchd.service
 
 [Service]
-ExecStart=/usr/bin/sx_ecmp_hash.py
+ExecStart=/usr/bin/sx_ecmp_hash.py -c /etc/sx_ecmp_hash/sx_ecmp_hash.json
 
 [Install]
 WantedBy=multi-user.target

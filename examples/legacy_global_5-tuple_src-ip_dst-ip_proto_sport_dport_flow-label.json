@@ -1,0 +1,17 @@
+{
+    "router_global_hash": {
+      "hash_params": {
+          "hash_type": "SX_ROUTER_ECMP_HASH_TYPE_CRC",
+          "symmetric_hash": true,
+          "seed": 98335671
+      },
+      "hash_fields": [
+        "SX_ROUTER_ECMP_HASH_SRC_IP",
+        "SX_ROUTER_ECMP_HASH_DST_IP",
+        "SX_ROUTER_ECMP_HASH_FLOW_LABEL",
+        "SX_ROUTER_ECMP_HASH_TCP_UDP",
+        "SX_ROUTER_ECMP_HASH_TCP_UDP_SRC_PORT",
+        "SX_ROUTER_ECMP_HASH_TCP_UDP_DST_PORT"
+      ]
+    }
+}

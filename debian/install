@@ -1,2 +1,3 @@
-sx_ecmp_hash.py usr/bin
-sx_ecmp_hash.conf etc
+sx_ecmp_hash.py usr/bin/
+sx_ecmp_hash.json etc/sx_ecmp_hash/
+examples etc/sx_ecmp_hash/

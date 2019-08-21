@@ -1,3 +1,13 @@
+sx-ecmp-hash (2.0.0-cl) unstable; urgency=low
+  New release supporting two different ECMP Hash configuration modes:
+  - Legacy global configuration mode
+  - New port-based configuration mode
+
+  Starting from 2.x release, sx-ecmp-hash is using new configuration 
+  file format, which is not compatible with 1.x release.
+
+ -- Alexander Petrovskiy <alexpe@mellanox.com>  Wed, 21 Aug 2019 21:10:06 +0300
+
 sx-ecmp-hash (1.0.1-cl) unstable; urgency=low
   Initial release
 
