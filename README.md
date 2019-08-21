@@ -25,7 +25,9 @@ There're two different ECMP Hash configuration modes upported in Mellanox SX SDK
 Cumulus Linux 3.x is using **Global configuration mode** by default.
 
 > **IMPORTANT NOTE:** 
+>
 > Switching from Global mode to Port mode is supported.
+>
 > However, ***switching back from Port mode to Global mode is not supported***. Need to reboot the device or reload SDK.
 
 ## Configuration examples
